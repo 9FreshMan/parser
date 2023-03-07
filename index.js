@@ -3,5 +3,6 @@ tg.expand()
 
 
 function btn_handler() {
+    alert("Works")
     td.close()
 }
