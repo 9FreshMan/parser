@@ -52,6 +52,14 @@
     async defer></script>
 
 <script>
+    let tg = window.Telegram.WebApp
+    tg.expand()
+
+
+    function btn_handler() {
+        alert("works")
+        td.close()
+    }
     function whereAutocomplete() {
         autocomplete = new google.maps.places.Autocomplete(
             document.getElementById('where'),
